@@ -12,7 +12,7 @@ class Resume extends Component {
               <Cell col={4}>
                 <div style={{ textAlign: "left" }}>
                   <h2 style={{ paddingTop: "25px" }}>Haur Kang</h2>
-                  <h4 style={{ color: "grey" }}>
+                  <h4>
                     Front-end wed developer/ analyst
                   </h4>
                   <hr
@@ -50,11 +50,10 @@ class Resume extends Component {
                 </div>
               </Cell>
               <Cell className="resume-right-col" col={8}>
-                        <h2>Skills</h2>
-                        <Skills skill="javascript" progress={100} />
-                        <Skills skill="HTML/CSS" progress={80} />
-                        <Skills skill="NodeJS" progress={50} />
-                        <Skills skill="React" progress={25} />
+                <h2>Skills</h2>
+                <h3>
+                  React | Redux | React Hooks | Jest | Enzyme | Gatsby | GraphQL |
+                </h3>
                 <h2 style={{ marginBottom: "48px" }}>Experience</h2>
                 <Experience
                   startYear={2009}
