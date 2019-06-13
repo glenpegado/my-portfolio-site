@@ -13,8 +13,6 @@ function App() {
             <Link exact to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
-            {/* <Link to="/aboutme">About Me</Link>
-            <Link to="/contact">Contact</Link> */}
           </Navigation>
         </Header>
         <Drawer title="Haur Kang">
@@ -22,8 +20,6 @@ function App() {
             <Link exact to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
-            {/* <Link to="/aboutme">About Me</Link>
-            <Link to="/contact">Contact</Link> */}
           </Navigation>
         </Drawer>
         <Content>
