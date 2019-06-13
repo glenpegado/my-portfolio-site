@@ -10,21 +10,21 @@ class Resume extends Component {
             <div style={{margin: '10px 50px'}}>
                 <Grid>
                     <Cell col={4}>
-                        <div style={{ textAlign: 'center' }}>
-                            <h2>Paul Hanna</h2>
+                        <div style={{ textAlign: 'left' }}>
+                            <h2 style={{paddingTop:'25px'}}>Paul Hanna</h2>
                             <h4 style={{ color: 'grey' }}>Programmer</h4>
-                            <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
+                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
                             <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
+                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
                             <h5>Email</h5>
                             <p>someone@example.com</p>
                             <h5>Web</h5>
                             <p>mywebsite.com</p>
-                            <hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
+                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
                         </div>
                     </Cell>
                     <Cell className="resume-right-col" col={8}>
-                        <h2>Experience</h2>
+                        <h2 style={{marginBottom: '48px'}}>Experience</h2>
                         <Experience
                             startYear={2009}
                             endYear={2012}
@@ -37,7 +37,7 @@ class Resume extends Component {
                             jobName="Second Job"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
                         />
-                        <hr style={{ borderTop: '3px solid #e22947' }} />
+                        <hr style={{ borderTop: '3px solid white' }} />
                         <h2>Skills</h2>
                         <Skills
                             skill="javascript"
