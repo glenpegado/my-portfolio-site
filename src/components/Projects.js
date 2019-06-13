@@ -4,12 +4,13 @@ import {
   Tab,
   Grid,
   Cell,
-  Card,
+  // Card,
   // CardTitle,
-  CardText,
+  // CardText,
   CardActions,
   Button
 } from "react-mdl";
+import { Card, CardDeck } from "react-bootstrap";
 import mypic from "../mypic.jpg";
 
 class Projects extends Component {
@@ -23,7 +24,105 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className="projects-grid">
-          {/* Project 1 */}
+          <CardDeck>
+            <Card >
+              <Card.Img
+                variant="top"
+                src={mypic}
+                alt={mypic}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </Card.Text>
+              </Card.Body>
+                <CardActions border>
+                  <Button colored>Live Demo</Button>
+                </CardActions>
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={mypic}
+                alt={mypic}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                {/* <Card.Text>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </Card.Text> */}
+              </Card.Body>
+              <CardActions border>
+                <Button colored>Live Demo</Button>
+              </CardActions>
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={mypic}
+                alt={mypic}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                {/* <Card.Text>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </Card.Text> */}
+              </Card.Body>
+              <CardActions border>
+                <Button colored>Live Demo</Button>
+              </CardActions>
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={mypic}
+                alt={mypic}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                {/* <Card.Text>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </Card.Text> */}
+              </Card.Body>
+              <CardActions border>
+                <Button colored>Live Demo</Button>
+              </CardActions>
+            </Card>
+            {/* <Card>
+              <Card.Img
+                variant="top"
+                src={mypic}
+                alt={mypic}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Card title</Card.Title>
+                <Card.Text>
+                  This is a wider card with supporting text below as a
+                  natural lead-in to additional content. This content is a
+                  little bit longer.
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>Live Demo</Button>
+              </CardActions>
+            </Card> */}
+            
+          </CardDeck>
+          {/* Project 1
           <Card shadow={5} >
             <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
@@ -31,7 +130,7 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-          {/* Project 2 */}
+          Project 2
           <Card shadow={5} >
             <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
@@ -39,7 +138,7 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-          {/* Project 3 */}
+          Project 3
           <Card shadow={5} >
             <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
@@ -47,7 +146,7 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-          {/* Project 3 */}
+          Project 3
           <Card shadow={5}>
             <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
@@ -55,14 +154,14 @@ class Projects extends Component {
               <Button colored>Live Demo</Button>
             </CardActions>
           </Card>
-          {/* Project 3 */}
+          Project 3
           <Card shadow={5} >
             <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
             <CardActions border>
               <Button colored>Live Demo</Button>
             </CardActions>
-          </Card>
+          </Card> */}
         </div>
       );
     } else if (this.state.activeTab === 1) {
