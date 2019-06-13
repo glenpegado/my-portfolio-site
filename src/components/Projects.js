@@ -25,7 +25,7 @@ class Projects extends Component {
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} >
-            <img src={mypic} alt={mypic} style={{ height: "230px" }} />
+            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
             <CardText>Technologies: React, Redux</CardText>
             <CardActions border>
               <Button colored>Live Demo</Button>
