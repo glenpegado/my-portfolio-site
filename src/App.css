@@ -75,3 +75,9 @@ text-align: center;
   grid-row-gap: 25px;
   justify-content: center;
 }
+
+.resume-right-col {
+  background: #27221F;
+  color: white;
+  padding: 2em;
+}
