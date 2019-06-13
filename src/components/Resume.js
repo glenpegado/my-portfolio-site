@@ -7,58 +7,72 @@ import Skills from './Skills';
 class Resume extends Component {
     render() {
         return (
-            <div style={{margin: '10px 50px'}}>
-                <Grid>
-                    <Cell col={4}>
-                        <div style={{ textAlign: 'left' }}>
-                            <h2 style={{paddingTop:'25px'}}>Paul Hanna</h2>
-                            <h4 style={{ color: 'grey' }}>Programmer</h4>
-                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
-                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
-                            <h5>Email</h5>
-                            <p>someone@example.com</p>
-                            <h5>Web</h5>
-                            <p>mywebsite.com</p>
-                            <hr style={{ borderTop: '3px solid blue', width: '100%' }} />
-                        </div>
-                    </Cell>
-                    <Cell className="resume-right-col" col={8}>
-                        <h2 style={{marginBottom: '48px'}}>Experience</h2>
-                        <Experience
-                            startYear={2009}
-                            endYear={2012}
-                            jobName="First Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                        />
-                        <Experience
-                            startYear={2012}
-                            endYear={2016}
-                            jobName="Second Job"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                        />
-                        <hr style={{ borderTop: '3px solid white' }} />
+          <div style={{ margin: "10px 60px" }}>
+            <Grid>
+              <Cell col={4}>
+                <div style={{ textAlign: "left" }}>
+                  <h2 style={{ paddingTop: "25px" }}>Haur Kang</h2>
+                  <h4 style={{ color: "grey" }}>
+                    Front-end wed developer/ analyst
+                  </h4>
+                  <hr
+                    style={{
+                      borderTop: "3px solid blue",
+                      width: "100%"
+                    }}
+                  />
+                  <p>
+                    I am a highly motivated self-taught web developer
+                    <strong> (React and Angular)</strong> and web analyst, with several years of
+                    public sector experience.</p>
+                   <p> My background has helped
+                    me develop a systematic and analytical approach to
+                    problem solving. When working autonomously I keep
+                    current by researching and networking with peers -
+                    often discussing ideas and issues on stackoverflow
+                    and github.
+                  </p>
+                    <p>Using my broad experience I have created a range of beautifully responsive websites with the user experience a priority. You can view these examples under the project section. These will give you a good idea of the skills I can bring into play to design, develop and deliver platforms to ensure your return-on-investment.</p>
+                  <hr
+                    style={{
+                      borderTop: "3px solid blue",
+                      width: "100%"
+                    }}
+                  />
+                  <h5>Email</h5>
+                  <p style={{ fontSize: '20px', fontWeight: '700' }}>haur.kang@gmail.com</p>
+                  <hr
+                    style={{
+                      borderTop: "3px solid blue",
+                      width: "100%"
+                    }}
+                  />
+                </div>
+              </Cell>
+              <Cell className="resume-right-col" col={8}>
                         <h2>Skills</h2>
-                        <Skills
-                            skill="javascript"
-                            progress={100}
-                        />
-                        <Skills
-                            skill="HTML/CSS"
-                            progress={80}
-                        />
-                        <Skills
-                            skill="NodeJS"
-                            progress={50}
-                        />
-                        <Skills
-                            skill="React"
-                            progress={25}
-                        />
-                    </Cell>
-                </Grid>
-            </div>
-        )
+                        <Skills skill="javascript" progress={100} />
+                        <Skills skill="HTML/CSS" progress={80} />
+                        <Skills skill="NodeJS" progress={50} />
+                        <Skills skill="React" progress={25} />
+                <h2 style={{ marginBottom: "48px" }}>Experience</h2>
+                <Experience
+                  startYear={2009}
+                  endYear={2012}
+                  jobName="First Job"
+                  jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                />
+                <Experience
+                  startYear={2012}
+                  endYear={2016}
+                  jobName="Second Job"
+                  jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                />
+                <hr style={{ borderTop: "3px solid white" }} />
+              </Cell>
+            </Grid>
+          </div>
+        );
     }
 }
 
