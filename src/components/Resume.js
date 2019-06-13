@@ -69,7 +69,7 @@ class Resume extends Component {
               Python | Google Analytics | Tableau | Sqlite | Hotjar |
               Firebase | MongoDB...
             </h5>
-            <hr style={{ borderTop: "3px solid white", marginTop: '30px' }} />
+            <hr style={{ borderTop: "2px solid white", marginTop: '30px' }} />
             <h2 style={{ marginTop: "35px" }}>Experience</h2>
             <Experience
               startYear={2017}

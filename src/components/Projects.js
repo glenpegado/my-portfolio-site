@@ -12,6 +12,8 @@ import {
 } from "react-mdl";
 import { Card, CardDeck } from "react-bootstrap";
 import mypic from "../mypic.jpg";
+import balanceSheet from '../balanceSheet.png';
+import exerciseTracker from '../exerciseTracker.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -101,7 +103,14 @@ class Projects extends Component {
                 <Button colored>Live Demo</Button>
               </CardActions>
             </Card>
-            {/* <Card>
+          </CardDeck>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className="projects-grid">
+          <CardDeck>
+            <Card>
               <Card.Img
                 variant="top"
                 src={mypic}
@@ -119,55 +128,55 @@ class Projects extends Component {
               <CardActions border>
                 <Button colored>Live Demo</Button>
               </CardActions>
-            </Card> */}
-            
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={balanceSheet}
+                alt={balanceSheet}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Balance $heet</Card.Title>
+                <Card.Text>
+                  This balance sheet project is a creative way of
+                  monitoring financial transactions.(Full stack)
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>Live Demo</Button>
+              </CardActions>
+            </Card>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={exerciseTracker}
+                alt={exerciseTracker}
+                style={{ height: "250px" }}
+              />
+              <Card.Body>
+                <Card.Title>Exercise Tracker</Card.Title>
+                <Card.Text>
+                  As someone who is very much into fitness, I created this
+                  exercise tracker that could be used to monitor and
+                  record fitness activities.
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    href="https://xt-exercise-tracker.firebaseapp.com/login"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
           </CardDeck>
-          {/* Project 1
-          <Card shadow={5} >
-            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
-            <CardText>Technologies: React, Redux</CardText>
-            <CardActions border>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card>
-          Project 2
-          <Card shadow={5} >
-            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
-            <CardText>Technologies: React, Redux</CardText>
-            <CardActions border>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card>
-          Project 3
-          <Card shadow={5} >
-            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
-            <CardText>Technologies: React, Redux</CardText>
-            <CardActions border>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card>
-          Project 3
-          <Card shadow={5}>
-            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
-            <CardText>Technologies: React, Redux</CardText>
-            <CardActions border>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card>
-          Project 3
-          <Card shadow={5} >
-            <img src={mypic} alt={mypic} style={{ height: "200px" }} />
-            <CardText>Technologies: React, Redux</CardText>
-            <CardActions border>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-          </Card> */}
         </div>
       );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div><h1>This is Angular</h1></div>
-      )
     } else if (this.state.activeTab === 2) {
       return (
         <div><h1>This is Gatsby</h1></div>

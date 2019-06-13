@@ -76,6 +76,11 @@ text-align: center;
   margin: 2% 10%;
 }
 
+.projects-grid a {
+  color: blue;
+  text-decoration: none;
+}
+
 .resume-right-col {
   background: rgb(0, 0, 41);  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right,#000046, #060c64,  #000046);  /* Chrome 10-25, Safari 5.1-6 */
