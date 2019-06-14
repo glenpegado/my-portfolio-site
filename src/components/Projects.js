@@ -137,7 +137,7 @@ class Projects extends Component {
                 style={{ height: "250px" }}
               />
               <Card.Body>
-                <Card.Title>Balance $heet</Card.Title>
+                <Card.Title><strong>Balance $heet</strong></Card.Title>
                 <Card.Text>
                   This balance sheet project is a creative way of
                   monitoring financial transactions.(Full stack)
@@ -155,7 +155,7 @@ class Projects extends Component {
                 style={{ height: "250px" }}
               />
               <Card.Body>
-                <Card.Title>Exercise Tracker</Card.Title>
+                <Card.Title><strong>Exercise Tracker</strong></Card.Title>
                 <Card.Text>
                   As someone who is very much into fitness, I created this
                   exercise tracker that could be used to monitor and
