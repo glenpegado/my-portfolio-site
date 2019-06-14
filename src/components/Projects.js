@@ -19,6 +19,7 @@ import makang from '../makang.png';
 import roomah from '../roomah.png';
 import monidash from '../monidash.png';
 import moovie from '../moovie.png';
+import pokemon from '../pokemon.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -35,12 +36,12 @@ class Projects extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={mypic}
-                alt={mypic}
+                src={pokemon}
+                alt={pokemon}
                 style={{ height: "220px" }}
               />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>Pokemon Card</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a
                   natural lead-in to additional content. This content is a
@@ -48,13 +49,15 @@ class Projects extends Component {
                 </Card.Text>
               </Card.Body>
               <CardActions border>
-                <Button colored><a
-                  href="https://moovies.netlify.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  Live demo
-                  </a></Button>
+                <Button colored>
+                  <a
+                    href="https://reactpokemon.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
               </CardActions>
             </Card>
             <Card>
@@ -65,7 +68,7 @@ class Projects extends Component {
                 style={{ height: "220px" }}
               />
               <Card.Body>
-                <Card.Title>HK Movies</Card.Title>
+                <Card.Title>HKang Movies</Card.Title>
                 <Card.Text>
                   This is a wider card with supporting text below as a
                   natural lead-in to additional content. This content is a
@@ -119,7 +122,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Seroom</strong>
+                  Seroom
                 </Card.Title>
                 <Card.Text>
                   This is an illustration of a modern website I have
@@ -147,7 +150,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Balance $heet</strong>
+                  Balance $heet
                 </Card.Title>
                 <Card.Text>
                   This balance sheet project is a creative way of
@@ -175,7 +178,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Exercise Tracker</strong>
+                  Exercise Tracker
                 </Card.Title>
                 <Card.Text>
                   I created this exercise tracker that could be used to
