@@ -10,14 +10,14 @@ function App() {
       <Layout>
         <Header className="header-color" title="Haur Kang" scroll>
           <Navigation>
-            <Link exact to="/">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
           </Navigation>
         </Header>
         <Drawer title="Haur Kang">
           <Navigation>
-            <Link exact to="/">Home</Link>
+            <Link to="/">Home</Link>
             <Link to="/projects">Projects</Link>
             <Link to="/resume">Resume</Link>
           </Navigation>
