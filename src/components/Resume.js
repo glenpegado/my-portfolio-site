@@ -91,18 +91,30 @@ Produce accurate, engaging and actionable analysis of online and offline data so
               endYear={2017}
               jobName="Home Office"
               jobDescription="Web analyst"
+              jobDetail="Provide support to the user research, digital and management teams using agile methodology.
+Reporting on key metrics, analysing and interpreting trends and providing actionable insights based on available web analytics data.
+Analysing the effect of different online and offline channels on each other and developing and implementing innovative strategies for improvement and growth.
+Providing consultancy on campaign tagging and additional on-site tracking.
+Spotting potential to implement innovative new methodologies and improve analytical procedure.
+"
             />
             <Experience
               startYear={2009}
               endYear={2015}
               jobName="Department for Work and Pensions (DWP)"
               jobDescription="Web analyst | Project lead"
+              jobDetail="Managed and implemented projects such as Digital, Benefit Cap and Migrants Access to Benefits across East London District.
+Collected and analysed performance and management data for the office including undertaking research, collation and analysis of data, monitoring data quality, and identify issues for resolution.
+Maintained and developed regular periodic reports and ad-hoc reports. In addition, I also interpreted and translated data for staff and Managers.
+Collated and analysed statistical and qualitative information as requested by the Performance Manager.
+"
             />
             <Experience
               startYear={2004}
               endYear={2009}
               jobName="Next retail"
               jobDescription="Office Manager"
+              jobDetail="Ensured that all of the stores administration procedures were followed in accordance with the Company Policies and Internal Audit requirements.Collated and checked all financial transactions relating to the store’s cash/banking procedures and controls. Devised spread sheets to capture and monitor store sales. Calculated the store’s profit and loss targets. Recruited Sales Consultants for stores, which involved planning and conducting of the end-of-season sale recruitment drive."
             />
           </Cell>
         </Grid>
