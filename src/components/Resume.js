@@ -69,13 +69,22 @@ class Resume extends Component {
               Python | Google Analytics | Tableau | Sqlite | Hotjar |
               Firebase | MongoDB...
             </h5>
-            <hr style={{ borderTop: "2px solid white", marginTop: '30px' }} />
+            <hr
+              style={{ borderTop: "2px solid white", marginTop: "30px" }}
+            />
             <h2 style={{ marginTop: "35px" }}>Experience</h2>
             <Experience
               startYear={2017}
-              endYear={'current'}
+              endYear={"current"}
               jobName="Government Digital Service (GDS)"
               jobDescription="Front-end web developer | Web analyst"
+              jobDetail="Engaging with the UX/design side as well as back end developers.
+Using RESTful APIs to build a client side application.
+Implementing event tracking for AB/multivariable test. 
+Working closely with other front end developers to ensure front end designs are comply with Web Content Accessibility Guidelines (WCAG).
+Reporting on key metrics, analysing and interpreting trends and providing actionable insights based on available web analytics data.
+Produce accurate, engaging and actionable analysis of online and offline data sources to derive priority user needs and user behaviour.
+"
             />
             <Experience
               startYear={2015}
