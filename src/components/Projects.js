@@ -4,9 +4,6 @@ import {
   Tab,
   Grid,
   Cell,
-  // Card,
-  // CardTitle,
-  // CardText,
   CardActions,
   Button
 } from "react-mdl";

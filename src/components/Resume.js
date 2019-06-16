@@ -1,16 +1,18 @@
 import React, { Component } from "react";
-import { Grid, Cell } from "react-mdl";
+// import { Grid, Cell } from "react-mdl";
 import Experience from "./Experience";
+import { Container, Row, Col } from "react-bootstrap";
 
 class Resume extends Component {
   render() {
     return (
-      <div style={{ margin: "10px 60px" }}>
-        <Grid>
-          <Cell col={4}>
+      <div style={{ margin: "10px 0" }}>
+        <Container>
+          <Row>
+          <Col sm={4}>
             <div style={{ textAlign: "left" }}>
               <h2 style={{ paddingTop: "25px" }}>Haur Kang</h2>
-              <h4>Front-end wed developer | web analyst</h4>
+              <h4>Front-end wed developer | <br/> Web analyst</h4>
               <hr
                 style={{
                   borderTop: "3px solid blue",
@@ -33,9 +35,7 @@ class Resume extends Component {
                 Using my broad experience I have created a range of
                 beautifully responsive websites with the user experience a
                 priority. You can view these examples under the project
-                section. These will give you a good idea of the skills I can
-                bring into play to design, develop and deliver platforms to
-                ensure your return-on-investment.
+                section. 
               </p>
               <hr
                 style={{
@@ -54,20 +54,19 @@ class Resume extends Component {
                 }}
               />
             </div>
-          </Cell>
-          <Cell className="resume-right-col" col={8}>
+          </Col>
+          <Col className="resume-right-col" sm={8}>
             <h2>Skills</h2>
             <h5>
               React | Redux | React Hooks | Jest | Enzyme | Gatsby | GraphQL
-              | Contentful
+              | 
             </h5>
             <h5>
-              Angular | Javascript | Typescript | HTML | SASS | CSS | NodeJS
-              | Bootstrap
+              Contentful | Angular | Javascript | Typescript | HTML | SASS | CSS | 
             </h5>
             <h5>
-              Python | Google Analytics | Tableau | Sqlite | Hotjar |
-              Firebase | MongoDB...
+              Google Analytics | Tableau | Sqlite | Hotjar |
+              Firebase and many more.
             </h5>
             <hr
               style={{ borderTop: "2px solid white", marginTop: "30px" }}
@@ -116,8 +115,9 @@ Collated and analysed statistical and qualitative information as requested by th
               jobDescription="Office Manager"
               jobDetail="Ensured that all of the stores administration procedures were followed in accordance with the Company Policies and Internal Audit requirements.Collated and checked all financial transactions relating to the store’s cash/banking procedures and controls. Devised spread sheets to capture and monitor store sales. Calculated the store’s profit and loss targets. Recruited Sales Consultants for stores, which involved planning and conducting of the end-of-season sale recruitment drive."
             />
-          </Cell>
-        </Grid>
+          </Col>
+          </Row>
+        </Container>
       </div>
     );
   }
