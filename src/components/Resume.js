@@ -10,7 +10,7 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{ textAlign: "left" }}>
               <h2 style={{ paddingTop: "25px" }}>Haur Kang</h2>
-              <h4>Front-end wed developer/ analyst</h4>
+              <h4>Front-end wed developer | web analyst</h4>
               <hr
                 style={{
                   borderTop: "3px solid blue",
