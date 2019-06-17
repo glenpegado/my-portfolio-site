@@ -14,7 +14,7 @@ import exerciseTracker from '../exerciseTracker.png';
 import seroom from '../seroom.png';
 import makang from '../makang.png';
 import roomah from '../roomah.png';
-import monidash from '../monidash.png';
+import hitchhub from '../hitchhub.png';
 import moovie from '../moovie.png';
 import pokemon from '../pokemon.png';
 
@@ -289,8 +289,8 @@ class Projects extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={monidash}
-                alt={monidash}
+                src={hitchhub}
+                alt={hitchhub}
                 style={{ height: "220px" }}
               />
               <Card.Body>
@@ -298,14 +298,13 @@ class Projects extends Component {
                   <strong>Monidash</strong>
                 </Card.Title>
                 <Card.Text>
-                  Opps.... this is actually a React app. Monidash allows
-                  user to pick their favourite coins.
+                  This is an app that allows travellers to connect with each other from all over the world.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
                 <Button colored>
                   <a
-                    href="https://monidash.netlify.com/"
+                    href="http://hitchhub.s3-website-us-east-1.amazonaws.com"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
