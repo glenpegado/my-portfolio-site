@@ -295,7 +295,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Monidash</strong>
+                  <strong>Hitchhub</strong>
                 </Card.Title>
                 <Card.Text>
                   This is an app that allows travellers to connect with each other from all over the world.
