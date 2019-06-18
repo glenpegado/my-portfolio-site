@@ -30,7 +30,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <CardDeck>
-            <Card style={{boxShadow:3px 3px 5px 6px #ccc}}>
+            <Card>
               <Card.Img
                 variant="top"
                 src={pokemon}
