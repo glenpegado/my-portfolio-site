@@ -30,7 +30,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <CardDeck>
-            <Card border="primary">
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={pokemon}
@@ -57,7 +57,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={moovie}
@@ -84,7 +84,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={mypic}
@@ -110,7 +110,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <CardDeck>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={seroom}
@@ -138,7 +138,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={balanceSheet}
@@ -166,7 +166,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={exerciseTracker}
@@ -201,7 +201,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <CardDeck>
-            <Card >
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={seroom}
@@ -227,7 +227,7 @@ class Projects extends Component {
       return (
         <div className="projects-grid">
           <CardDeck>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={makang}
@@ -257,7 +257,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={roomah}
@@ -286,7 +286,7 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            <Card>
+            <Card border="dark">
               <Card.Img
                 variant="top"
                 src={hitchhub}
