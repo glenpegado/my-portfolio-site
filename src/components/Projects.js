@@ -178,7 +178,7 @@ class Projects extends Component {
                   Exercise Tracker
                 </Card.Title>
                 <Card.Text>
-                  I created this exercise tracker that could be used to
+                  I created this exercise tracker to
                   monitor and record my fitness activities. (Full stack)
                 </Card.Text>
               </Card.Body>
@@ -241,8 +241,7 @@ class Projects extends Component {
                 <Card.Text>
                   Highlighting design and use of visuals, this is the
                   first website I created. As a Malaysian, we love our
-                  authentic Malaysian dishes. Are you tempted? Dive into
-                  the website now to see more!
+                  authentic Malaysian dishes. 
                 </Card.Text>
               </Card.Body>
               <CardActions border>
