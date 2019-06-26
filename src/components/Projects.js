@@ -91,7 +91,7 @@ class Projects extends Component {
                 variant="top"
                 src={recipe}
                 alt={recipe}
-                style={{ height: "250px" }}
+                style={{ height: "220px" }}
               />
               <Card.Body>
                 <Card.Title>Recipe Library</Card.Title>
