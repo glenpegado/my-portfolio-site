@@ -17,6 +17,7 @@ import roomah from '../roomah.png';
 import hitchhub from '../hitchhub.png';
 import moovie from '../moovie.png';
 import pokemon from '../pokemon.png';
+import myblog from '../myblog.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -204,25 +205,89 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={seroom}
-                alt={seroom}
+                src={myblog}
+                alt={myblog}
                 style={{ height: "220px" }}
               />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
+                <Card.Title>
+                  My blog
+                </Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a
-                  natural lead-in to additional content. This content is a
-                  little bit longer.
+                  This is the first website I built on GatsbyJS
                 </Card.Text>
               </Card.Body>
               <CardActions border>
-                <Button colored>Live Demo</Button>
+                <Button colored>
+                  <a
+                    href="https://mygatsbyblog.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
               </CardActions>
             </Card>
-            </CardDeck>
-            </div>
-      )
+            <Card border="dark">
+              <Card.Img
+                variant="top"
+                src={balanceSheet}
+                alt={balanceSheet}
+                style={{ height: "220px" }}
+              />
+              <Card.Body>
+                <Card.Title>
+                  Balance $heet
+                </Card.Title>
+                <Card.Text>
+                  This balance sheet project is a creative way of
+                  monitoring financial transactions. (Full stack)
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    href="https://balancesheet-88f60.firebaseapp.com"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
+            <Card border="dark">
+              <Card.Img
+                variant="top"
+                src={exerciseTracker}
+                alt={exerciseTracker}
+                style={{ height: "220px" }}
+              />
+              <Card.Body>
+                <Card.Title>
+                  Exercise Tracker
+                </Card.Title>
+                <Card.Text>
+                  I created this exercise tracker to
+                  monitor and record my fitness activities. (Full stack)
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    href="https://xt-exercise-tracker.firebaseapp.com/login"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
+          </CardDeck>
+        </div>
+      );
     } else if (this.state.activeTab === 3) {
       return (
         <div className="projects-grid">
