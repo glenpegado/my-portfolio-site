@@ -400,9 +400,9 @@ class Projects extends Component {
           <Tab>Gatsby</Tab>
           <Tab>HTML/CSS</Tab>
         </Tabs>
-      </div>
+      </div style={{backgroundColor:"SkyBlue"}}>
       <div>
-        <Grid style={{backgroundColor:"#000046"}}>
+        <Grid>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
