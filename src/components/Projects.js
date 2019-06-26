@@ -18,6 +18,7 @@ import hitchhub from '../hitchhub.png';
 import moovie from '../moovie.png';
 import pokemon from '../pokemon.png';
 import myblog from '../myblog.png';
+import recipe from '../recipe.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -88,20 +89,26 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={mypic}
-                alt={mypic}
+                src={recipe}
+                alt={recipe}
                 style={{ height: "250px" }}
               />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                {/* <Card.Text>
-                  This is a wider card with supporting text below as a
-                  natural lead-in to additional content. This content is a
-                  little bit longer.
-                </Card.Text> */}
+                <Card.Title>Recipe Library</Card.Title>
+                {<Card.Text>
+                  This is where you can search for recipe to make delicious meals.
+                </Card.Text>}
               </Card.Body>
               <CardActions border>
-                <Button colored>Live Demo</Button>
+                <Button colored>
+                  <a
+                    href="https://recipelibrary.netlify.com/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
               </CardActions>
             </Card>
           </CardDeck>
