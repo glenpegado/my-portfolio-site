@@ -394,11 +394,11 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple style={{fontWeight: 'bold'}}>
-          <Tab>React</Tab>
-          <Tab>Angular</Tab>
-          <Tab>Gatsby</Tab>
-          <Tab>HTML/CSS</Tab>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+          <Tab style={{fontWeight:'700'}}>React</Tab>
+          <Tab style={{fontWeight:'700'}}>Angular</Tab>
+          <Tab style={{fontWeight:'700'}}>Gatsby</Tab>
+          <Tab style={{fontWeight:'700'}}>HTML/CSS</Tab>
         </Tabs>
        
         <Grid className="project-grid2">
