@@ -16,6 +16,10 @@ text-align: center;
   height: 100%;
 }
 
+.project-grid2 {
+ background: #1CB5E0;
+}
+
 .avatar-img {
   height: 330px;
   width: 300px;
