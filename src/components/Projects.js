@@ -393,7 +393,7 @@ class Projects extends Component {
 
   render() {
     return (
-      <div style={{ width: "100%", margin: "auto" }}>
+      <div>
         <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
           <Tab>React</Tab>
           <Tab>Angular</Tab>
@@ -401,7 +401,7 @@ class Projects extends Component {
           <Tab>HTML/CSS</Tab>
         </Tabs>
        
-        <Grid className="landing-grid">
+        <Grid className="project-grid2">
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>
           </Cell>
