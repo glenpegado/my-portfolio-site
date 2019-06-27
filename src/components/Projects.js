@@ -394,7 +394,7 @@ class Projects extends Component {
   render() {
     return (
       <div>
-        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
+        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple style={{fontWeight: 'bold'}}>
           <Tab>React</Tab>
           <Tab>Angular</Tab>
           <Tab>Gatsby</Tab>
