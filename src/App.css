@@ -98,3 +98,7 @@ background: linear-gradient(to right, #000046, #060c64,  #000046); /* W3C, IE 10
   border-radius: 20px;
   opacity: 0.88;
 }
+
+card {
+  box-shadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
+}
