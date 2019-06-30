@@ -20,6 +20,7 @@ import pokemon from '../pokemon.png';
 import myblog from '../myblog.png';
 import recipe from '../recipe.png';
 import cars from '../cars.png';
+import coming from '../coming.png'
 
 class Projects extends Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class Projects extends Component {
               <Card.Body>
                 <Card.Title>HKang Movies</Card.Title>
                 <Card.Text>
-                  As a movie fan, I created this app using movieDB API.
+                  As a movie fan, I created this react app fetching data from the movieDB API.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -68,7 +69,7 @@ class Projects extends Component {
               <Card.Body>
                 <Card.Title>Cars</Card.Title>
                 <Card.Text>
-                  As a cars super fan, I created this app to demostrate how the react router dom works.
+                  As a car super fan, I created this app to demostrate how the react router dom works.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -236,8 +237,8 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={balanceSheet}
-                alt={balanceSheet}
+                src={coming}
+                alt={coming}
                 style={{ height: "220px" }}
               />
               <Card.Body>
@@ -245,14 +246,13 @@ class Projects extends Component {
                   Balance $heet
                 </Card.Title>
                 <Card.Text>
-                  This balance sheet project is a creative way of
-                  monitoring financial transactions. (Full stack)
+                  The site is currently under contrucstion. WIll be available soon.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
                 <Button colored>
                   <a
-                    href="https://balancesheet-88f60.firebaseapp.com"
+                    href="/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -264,8 +264,8 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={exerciseTracker}
-                alt={exerciseTracker}
+                src={coming}
+                alt={coming}
                 style={{ height: "220px" }}
               />
               <Card.Body>
@@ -273,14 +273,13 @@ class Projects extends Component {
                   Exercise Tracker
                 </Card.Title>
                 <Card.Text>
-                  I created this exercise tracker to
-                  monitor and record my fitness activities. (Full stack)
+                  The site is currently under contrucstion. WIll be available soon.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
                 <Button colored>
                   <a
-                    href="https://xt-exercise-tracker.firebaseapp.com/login"
+                    href="/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -309,8 +308,7 @@ class Projects extends Component {
                 </Card.Title>
                 <Card.Text>
                   Highlighting design and use of visuals, this is the
-                  first website I created. As a Malaysian, we love our
-                  authentic Malaysian dishes. 
+                  first website I ever created. 
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -337,8 +335,7 @@ class Projects extends Component {
                   <strong>Roomah</strong>
                 </Card.Title>
                 <Card.Text>
-                  Roomah is my exeplar website for selling, renting, or
-                  managing properties, built predominantly using CSS Grids
+                  Roomah is my exeplar website for selling, built predominantly using CSS Grids
                   and SASS.
                 </Card.Text>
               </Card.Body>
