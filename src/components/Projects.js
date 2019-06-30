@@ -58,7 +58,6 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
-            </Card>
             <Card border="dark">
               <Card.Img
                 variant="top"
