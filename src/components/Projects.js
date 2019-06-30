@@ -19,6 +19,7 @@ import moovie from '../moovie.png';
 import pokemon from '../pokemon.png';
 import myblog from '../myblog.png';
 import recipe from '../recipe.png';
+import cars from '../cars.png';
 
 class Projects extends Component {
   constructor(props) {
@@ -35,22 +36,20 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={pokemon}
-                alt={pokemon}
+                src={moovie}
+                alt={moovie}
                 style={{ height: "220px" }}
               />
               <Card.Body>
-                <Card.Title>Pokemon Card</Card.Title>
+                <Card.Title>HKang Movies</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a
-                  natural lead-in to additional content. This content is a
-                  little bit longer.
+                  As a movie fan, I created this app using movieDB API.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
                 <Button colored>
                   <a
-                    href="https://reactpokemon.netlify.com/"
+                    href="https://moovies.netlify.com/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
@@ -59,25 +58,24 @@ class Projects extends Component {
                 </Button>
               </CardActions>
             </Card>
+            </Card>
             <Card border="dark">
               <Card.Img
                 variant="top"
-                src={moovie}
-                alt={moovie}
+                src={cars}
+                alt={cars}
                 style={{ height: "220px" }}
               />
               <Card.Body>
-                <Card.Title>HKang Movies</Card.Title>
+                <Card.Title>Cars</Card.Title>
                 <Card.Text>
-                  This is a wider card with supporting text below as a
-                  natural lead-in to additional content. This content is a
-                  little bit longer.
+                  As a cars super fan, I created this app to demostrate how the react router dom works.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
                 <Button colored>
                   <a
-                    href="https://moovies.netlify.com/"
+                    href="https://hkcars.netlify.com/"
                     rel="noopener noreferrer"
                     target="_blank"
                   >
