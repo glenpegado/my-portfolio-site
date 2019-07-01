@@ -39,7 +39,7 @@ class LandingPage extends Component {
                   rel="noopener noreferrer"
                   target="_blank"
                 >
-                  <i className="fa fa-portrait" aria-hidden="true" />
+                  <i className="fa fa-address-book" aria-hidden="true" />
                 </a>
               </div>
             </div>
