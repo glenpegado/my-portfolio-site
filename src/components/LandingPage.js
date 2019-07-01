@@ -33,14 +33,6 @@ class LandingPage extends Component {
                 >
                   <i className="fa fa-linkedin-square" aria-hidden="true" />
                 </a>
-                {/* myblog */}
-                <a
-                  href="https://mygatsbyblog.netlify.com/"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <i className="fa fa-address-book" aria-hidden="true" />
-                </a>
               </div>
             </div>
           </Cell>
