@@ -69,7 +69,7 @@ class Projects extends Component {
               <Card.Body>
                 <Card.Title>Cars</Card.Title>
                 <Card.Text>
-                  As a car super fan, I created this app to demostrate how the react router dom works.
+                  As a car super fan, I created this app to demostrate example of car selling/renting site.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -129,7 +129,7 @@ class Projects extends Component {
                 </Card.Title>
                 <Card.Text>
                   This is an illustration of a modern website I have
-                  created for worldwide room rental. (MEAN stack)
+                  created for worldwide room rental. 
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -210,16 +210,43 @@ class Projects extends Component {
             <Card border="dark">
               <Card.Img
                 variant="top"
+                src={coming}
+                alt={coming}
+                style={{ height: "220px", opacity: "0.7"  }}
+              />
+              <Card.Body>
+                <Card.Title>
+                  Coming soon
+                </Card.Title>
+                <Card.Text>
+                  The site is currently under contrucstion. Will be available soon.
+                </Card.Text>
+              </Card.Body>
+              <CardActions border>
+                <Button colored>
+                  <a
+                    href="/"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
+                    Live demo
+                  </a>
+                </Button>
+              </CardActions>
+            </Card>
+            <Card border="dark">
+              <Card.Img
+                variant="top"
                 src={myblog}
                 alt={myblog}
-                style={{ height: "220px" }}
+                style={{ height: "220px"}}
               />
               <Card.Body>
                 <Card.Title>
                   My blog
                 </Card.Title>
                 <Card.Text>
-                  This is the first website I built on GatsbyJS
+                  This is the first website I built on GatsbyJS.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
@@ -239,41 +266,14 @@ class Projects extends Component {
                 variant="top"
                 src={coming}
                 alt={coming}
-                style={{ height: "220px" }}
+                style={{ height: "220px", opacity: "0.7"  }}
               />
               <Card.Body>
                 <Card.Title>
-                  Balance $heet
+                  Coming soon
                 </Card.Title>
                 <Card.Text>
-                  The site is currently under contrucstion. WIll be available soon.
-                </Card.Text>
-              </Card.Body>
-              <CardActions border>
-                <Button colored>
-                  <a
-                    href="/"
-                    rel="noopener noreferrer"
-                    target="_blank"
-                  >
-                    Live demo
-                  </a>
-                </Button>
-              </CardActions>
-            </Card>
-            <Card border="dark">
-              <Card.Img
-                variant="top"
-                src={coming}
-                alt={coming}
-                style={{ height: "220px" }}
-              />
-              <Card.Body>
-                <Card.Title>
-                  Exercise Tracker
-                </Card.Title>
-                <Card.Text>
-                  The site is currently under contrucstion. WIll be available soon.
+                  The site is currently under contrucstion. Will be available soon.
                 </Card.Text>
               </Card.Body>
               <CardActions border>
