@@ -12,7 +12,7 @@ class Resume extends Component {
           <Col sm={4}>
             <div style={{ textAlign: "left" }}>
               <h2 style={{ paddingTop: "25px" }}>Haur Kang</h2>
-              <h4>Front-end wed developer | <br/> Web analyst</h4>
+              <h4>Front-end web developer | <br/> Web analyst</h4>
               <hr
                 style={{
                   borderTop: "3px solid blue",
@@ -72,7 +72,17 @@ class Resume extends Component {
               style={{ borderTop: "2px solid white", marginTop: "30px" }}
             />
             <h2 style={{ marginTop: "35px" }}>Experience</h2>
-            <Experience
+               <Experience
+              startYear={2015}
+              endYear={"current"}
+              jobName="Freelance"
+              jobDescription="Freelance front-end developer | Web analyst"
+              jobDetail="Building great user experience sites for clients.
+Identifying and troubleshooting website issues and coding problems.. 
+Optimising websites and applications to ensure fast loading speeds
+"
+            />
+              <Experience
               startYear={2017}
               endYear={"current"}
               jobName="Government Digital Service (GDS)"
