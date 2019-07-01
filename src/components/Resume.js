@@ -78,8 +78,8 @@ class Resume extends Component {
               jobName="Freelance"
               jobDescription="Freelance front-end developer | Web analyst"
               jobDetail="Building great user experience sites for clients.
-Identifying and troubleshooting website issues and coding problems.. 
-Optimising websites and applications to ensure fast loading speeds
+Identifying and troubleshooting website issues and coding problems. 
+Optimising websites and applications to ensure fast loading speeds.
 "
             />
               <Experience
