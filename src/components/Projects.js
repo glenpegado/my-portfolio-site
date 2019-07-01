@@ -304,7 +304,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Makang</strong>
+                  Makang
                 </Card.Title>
                 <Card.Text>
                   Highlighting design and use of visuals, this is the
@@ -332,7 +332,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Roomah</strong>
+                  Roomah
                 </Card.Title>
                 <Card.Text>
                   Roomah is my exeplar website for selling, built predominantly using CSS Grids
@@ -360,7 +360,7 @@ class Projects extends Component {
               />
               <Card.Body>
                 <Card.Title>
-                  <strong>Hitchhub</strong>
+                  Hitchhub
                 </Card.Title>
                 <Card.Text>
                   This is an app that allows travellers to connect with each other from all over the world.
